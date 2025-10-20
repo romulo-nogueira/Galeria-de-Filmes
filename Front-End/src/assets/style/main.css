@@ -1,0 +1,46 @@
+.grid-container-principal{
+    /* border: 3px solid red; */
+    width: 95vw;
+    display: grid;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container-box-filme{
+    display: grid;
+    /* grid-template-columns: 1.5fr 1.5fr 1.5fr; */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.card-box-filme{
+   /* border: 3px solid blueviolet; */
+   display: grid;
+   width: 380px;
+   height: auto;
+   gap: 10px;
+   justify-content: center;
+   padding: 10px;
+   border-radius: 10px;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    
+}
+/* Estilo do box filme */
+.box-filme{
+    /* border: 3px solid blue; */
+    width: 350px;
+    height: 280px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.box-filme iframe{
+    width: 100%;
+    height: 100%;
+}
+/* Estilo do box-descrição */
+.box-descricao{
+   /*  border: 3px solid green; */
+    width: 350px;
+    height: auto;
+}

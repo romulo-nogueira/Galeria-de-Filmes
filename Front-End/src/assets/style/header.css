@@ -1,0 +1,109 @@
+#grid-container-header-logo {
+  /* border: 3px solid red; */
+  display: flex;
+  gap: 10px;
+  padding: 5px;
+}
+#grid-container-header-logo img {
+  width: 40px;
+}
+
+#grid-container-header-logo h1 {
+  font-size: 3rem;
+  font-family: "Inter", sans-serif;
+}
+/* estilizazcao campo pesquisa */
+.pesquisa {
+  /* border: 3px solid red; */
+  padding: 10px;
+  text-align: center;
+}
+.pesquisa input {
+  height: 50px;
+  width: 600px;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 1.3rem;
+  font-family: "Inter", sans-serif;
+  cursor: text;
+  box-shadow: 0 0 12px rgba(0, 180, 219, 0.6);
+}
+
+.pesquisa input::placeholder {
+  font-size: 1.3rem;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+}
+
+/* estilizzacao botoes pesquisa */
+
+.categorias {
+  /* border: 3px solid red   ; */
+  padding: 20px;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+.botao_categorias {
+  padding: 8px;
+  padding-left: 10px;
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  background: linear-gradient(45deg, #dfdb1a, #b2d829);
+}
+
+.botao_categorias:hover {
+  background: linear-gradient(45deg, #e4be44, #9c952b);
+  transform: scale(1.08);
+  box-shadow: 0 0 12px rgba(0, 180, 219, 0.6);
+  color: #fff;
+}
+
+
+/* Estilizzacao rodape */
+
+.rodape{
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.copy{
+    /* border: 3px solid green; */
+    font-family: "Inter", sans-serif;
+    font-size: 1.3rem;
+     color: #99999A;
+}
+.termos{
+    /* border: 3px solid blue; */
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    
+    
+}
+
+.politica{
+    display: flex;
+    gap: 20px;
+    padding: 5px;
+}
+.politica a{
+    text-decoration: none;
+    color: #99999A;
+}
+
+.redes{
+    display: flex;
+    align-items: center;
+}
