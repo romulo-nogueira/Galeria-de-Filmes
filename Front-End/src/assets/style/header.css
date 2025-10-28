@@ -65,45 +65,43 @@
   color: #fff;
 }
 
-
 /* Estilizzacao rodape */
 
-.rodape{
-    /* border: 3px solid red; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
+.rodape {
+  /* border: 3px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.15);
 }
-.copy{
-    /* border: 3px solid green; */
-    font-family: "Inter", sans-serif;
-    font-size: 1.3rem;
-     color: #99999A;
+.copy {
+  /* border: 3px solid green; */
+  font-family: "Inter", sans-serif;
+  font-size: 1.3rem;
+  color: #99999a;
 }
-.termos{
-    /* border: 3px solid blue; */
-    display: flex;
-    gap: 200px;
-    align-items: center;
-    font-family: "Inter", sans-serif;
-    font-size: 1.3rem;
-    font-weight: bold;
-    
-    
-}
-
-.politica{
-    display: flex;
-    gap: 20px;
-    padding: 5px;
-}
-.politica a{
-    text-decoration: none;
-    color: #99999A;
+.termos {
+  /* border: 3px solid blue; */
+  display: flex;
+  gap: 200px;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 
-.redes{
-    display: flex;
-    align-items: center;
+.politica {
+  display: flex;
+  gap: 20px;
+  padding: 5px;
+}
+.politica a {
+  text-decoration: none;
+  color: #99999a;
+}
+
+.redes {
+  display: flex;
+  align-items: center;
 }
